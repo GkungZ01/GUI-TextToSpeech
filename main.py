@@ -62,7 +62,7 @@ def playText():
     ps.Stopped(soundStop)
     ps.Start()
     
-def stopspeech():
+def stop_Speech():
     global stopSpeech
     if not mixer.music.get_busy() : return 
     stopSpeech = True
@@ -74,7 +74,7 @@ submit.pack(side='right')
 clear = tk.Button(frame,width=7, height=1,text="Clear", command=clearText)
 clear.pack(side='right')
 
-stopspeech_btn = tk.Button(frame,width=13, height=1,text="Stop Speech", command=stopspeech)
+stopspeech_btn = tk.Button(frame,width=13, height=1,text="Stop Speech", command=stop_Speech)
 stopspeech_btn.pack(side='left')
 
 paste = tk.Button(frame,width=7, height=1,text="Paste", command=pasteText)
