@@ -56,17 +56,9 @@ python main.py
 ## Project Structure
 
 ```
-gui-texttospeech
+gui-texttospeech/
 ├── main.py # Main application file
 ├── Components/
 │ └── Thread.py # Custom thread implementation
 └── temp.mp3 # Temporary audio file (generated during runtime)
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a new Pull Request
